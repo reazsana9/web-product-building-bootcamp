@@ -1,0 +1,40 @@
+#title {
+    color: coral;
+    /* text-align: center; */
+    position: sticky;
+    top: 10px;
+}
+
+.h1-font-size{
+    font-style: 44px;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid salmon;
+    /* padding: 200px; */
+    padding-right: 30px;
+    margin: 100px;
+}
+
+.position-demo{
+    border: 2px dotted #0000;
+    height: 200px;
+    position: relative;
+}
+
+.position-demo button {
+    padding: 8px 16px;
+    font-size: 24px;
+    background-color: aqua;
+}
+
+#btn-1{
+    background-color: red;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
