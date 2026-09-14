@@ -38,3 +38,16 @@
     left: 10px;
     top: 5px;
 }
+
+#parrent{
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.child{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
