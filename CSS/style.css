@@ -5,6 +5,17 @@
     top: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#navlist{
+    display: flex;
+    gap: 20px;
+}
+
 .h1-font-size{
     font-style: 44px;
 }
@@ -43,11 +54,33 @@
     display: flex;
     /* gap: 20px; */
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .child{
     width: 200px;
     height: 100px;
     background-color: blueviolet;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: cornflowerblue;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.feature{
+    grid-column:1/ span 2;
+}
+
+.tall{
+    grid-row: span 2;
 }
