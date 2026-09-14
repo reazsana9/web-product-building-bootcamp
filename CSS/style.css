@@ -84,3 +84,21 @@ li{
 .tall{
     grid-row: span 2;
 }
+
+@media (max-width: 425px) {
+    .grid-item{
+        background-color: red;
+    }
+    .h1-font-size{
+        font-size: 24px;
+    }
+    .grid-container{
+grid-template-columns: repeat(1, 1fr);
+    }
+    .feature{
+        grid-column: span 1;
+    }
+    .tall{
+        grid-row: span 1;
+    }
+}
