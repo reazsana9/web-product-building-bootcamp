@@ -1,0 +1,31 @@
+.test{
+    font-size: 120px;
+    font-weight: bold;
+    background-color: green;
+    color: red;
+}
+
+
+
+@media (max-width: 800px) {
+    .test{
+        font-size: 80px;
+        font-weight: normal;
+        background-color: yellow;
+        color: black;
+    }
+    /* Any other css classes */
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .test{
+        background-color: skyblue;
+    }
+}
+
+@media (min-width: 1200px) {
+    .test{
+        border-radius: 20px;
+        border: 4px solid red;
+    }
+}
