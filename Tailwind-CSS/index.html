@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- Custom CSS -->
-     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -19,14 +19,55 @@
         Hello, Tailwind!</h2>
 
 
-    <h3 class="bg-black md:bg-green-500 text-white md:text-black xl:bg-yellow-500 xl:text-green-500 border-4 border-amber-500 text-[25px] sm:text-[30px] md:text-[50px] xl:text-[80px] rounded-2xl font-bold text-center mt-3.75">Programming Hero
+    <h3
+        class="bg-black md:bg-green-500 text-white md:text-black xl:bg-yellow-500 xl:text-green-500 border-4 border-amber-500 text-[25px] sm:text-[30px] md:text-[50px] xl:text-[80px] rounded-2xl font-bold text-center mt-3.75">
+        Programming Hero
     </h3>
 
 
     <h2 class="test">Our first responsive element</h2>
 
     <!-- Card -->
-    <div class="h-64 min-w-64 bg-green-500 rounded-2xl my-4 mx-12.5 p-6.25 border-4"></div>
+     <h2 class="font-bold text-5xl text-red-500">Layout using Flex</h2>
+    <div class="my-8 flex flex-col md:flex-row gap-2">
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl">
+            Card 1
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl">
+            Card 2
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl">
+            Card 3
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl">
+            Card 4
+        </div>
+    </div>
+
+    <!-- Card -->
+     <h2 class="font-bold text-5xl text-red-500">Layout using Grid</h2>
+    <div class="my-8 grid grid-cols-1 md:grid-cols-12 gap-4">
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl col-span-1 md:col-span-2">
+            Card 1
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl col-span-1 md:col-span-4">
+            Card 2
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl col-span-1 md:col-span-4">
+            Card 3
+        </div>
+        <div
+            class="h-64 w-full bg-green-500 rounded-2xl p-6.25 border-4 flex justify-center items-center font-bold text-3xl col-span-2">
+            Card 4
+        </div>
+    </div>
 
 
 
