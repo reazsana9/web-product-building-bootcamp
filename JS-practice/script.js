@@ -169,5 +169,52 @@
 
 // for (let index = 0; index < bazarList.length; index++) {
 //     console.log(bazarList[index]);
-    
+
 // }
+
+// Map, filter, find, forEach
+
+// const phones = [
+//     {
+//         brand: "Samsung",
+//         model: "Galaxy S25",
+//         price: 95000,
+//         storage: "256GB",
+//         isStock: true
+//     },
+//     {
+//         brand: "Apple",
+//         model: "iPhone 16",
+//         price: 120000,
+//         storage: "128GB",
+//         isStock: true
+//     },
+//     {
+//         brand: "Xiaomi",
+//         model: "Redmi Note 14",
+//         price: 35000,
+//         storage: "256GB",
+//         isStock: false
+//     },
+//     {
+//         brand: "OnePlus",
+//         model: "OnePlus 1I",
+//         price: 85000,
+//         storage: "512GB",
+//         isStock: true
+//     }
+// ];
+
+// const listOfBrand = phones.map((p) => p.price + 15);
+// console.log(listOfBrand);
+
+// const filterPhone = phones.filter((p) => p.brand == "Apple")
+
+// console.log(filterPhone)
+
+// console.log("--------------------------------");
+
+// const findPhone = phones.find((p) => p.brand == "Apple");
+// console.log(findPhone);
+
+// phones. forEach((p)=> console.log(p.brand))
