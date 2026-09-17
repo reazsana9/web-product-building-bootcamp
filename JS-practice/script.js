@@ -125,34 +125,49 @@
 // const [n1, n2,n3,n4] = [20,13,254,65]
 // console. log(n40)
 
-const phone1 = {
-    name: "Samsung S20",
-    brand: "Sumsung",
-    price: 20000
-}
+// const phone1 = {
+//     name: "Samsung S20",
+//     brand: "Sumsung",
+//     price: 20000
+// }
 
-const phone2 = {
-    name: "Sumsung 21",
-    brand: "sumsung",
-    price: 26000,
-}
+// const phone2 = {
+//     name: "Sumsung 21",
+//     brand: "sumsung",
+//     price: 26000,
+// }
 
-const phone3 = {
-    name: "Sumsung 22",
-    brand: "sumsung",
-    price: 36000,
-}
+// const phone3 = {
+//     name: "Sumsung 22",
+//     brand: "sumsung",
+//     price: 36000,
+// }
 
-// phone3.ram ="8 GB"
-const newPhone3 = { ...phone3, ram:"8 GB"}
+// // phone3.ram ="8 GB"
+// const newPhone3 = { ...phone3, ram:"8 GB"}
 
-console.log(phone3)
+// console.log(phone3)
 
 // const { brand, name, price } = phone1
 
 // console.log(price);
 
-const phoneList = [phone1, phone2];
+// const phoneList = [phone1, phone2];
 
-const newPhoneList = [...phoneList, phone3]
-console.log(newPhoneList)
+// const newPhoneList = [...phoneList, phone3]
+// console.log(newPhoneList)
+
+// For loop
+
+// for(let i=1; i <= 100; i++){
+// console.log(i);
+
+//}
+
+// const bazarList = ["Alu", "potol", "Rosun"];
+// console.log(bazarList.length)
+
+// for (let index = 0; index < bazarList.length; index++) {
+//     console.log(bazarList[index]);
+    
+// }
