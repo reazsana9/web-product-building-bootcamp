@@ -105,9 +105,9 @@
 // const priceResult = calculatePrice(150, 200);
 // console.log(priceResult);
 
-const calDis = (buyingPrice, discount) =>{
-const afterDis = buyingPrice - discount
-return afterDis;
-}
-const discountResult = calDis(priceResult, 15);
-console. log ("After discount price is ", discountResult)
+// const calDis = (buyingPrice, discount) =>{
+// const afterDis = buyingPrice - discount
+// return afterDis;
+// }
+// const discountResult = calDis(priceResult, 15);
+// console. log ("After discount price is ", discountResult)
