@@ -111,3 +111,16 @@
 // }
 // const discountResult = calDis(priceResult, 15);
 // console. log ("After discount price is ", discountResult)
+
+
+// Array and Object
+// const bazarList = ["Alu", "potol", "Rosun"];
+// bazarList.push("Ada")
+// bazarList.pop();
+
+// console. log(bazarList)
+
+// const numberList = [20,13,254,65];
+
+// const [n1, n2,n3,n4] = [20,13,254,65]
+// console. log(n40)
